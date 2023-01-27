@@ -17,6 +17,11 @@
 # git push --force --tags origin 'refs/heads/*'
 
 # (if you're lazy you can just place this script in your $PATH, then you can shorten commands by replacing python3 git-filter-repo with git filter-repo all over the place)
+# If for some reason the 1st way doesn't work, you can use the following script. 
+# This is based on a popular/most used solution used across the internet. 
+# To do this run the following script on the desired repository (after running git clone --bare *repo_link*), 
+# and please carefully read all the comments before doing so.
+
 
 # INSTRUCTIONS:
 # 1 - Save the script to a file: "update_commit_identity.sh"
